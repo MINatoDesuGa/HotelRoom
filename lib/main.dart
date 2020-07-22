@@ -220,7 +220,9 @@ class _FirstState extends State<First> {
               SizedBox(width: w * 0.2,),
               FlatButton(
                   color: Colors.white,
-                  onPressed: () {},
+                  onPressed: () {
+                  	exit(0);
+                  },
                   child: Text(
                     'EXIT',
                     style: TextStyle(
